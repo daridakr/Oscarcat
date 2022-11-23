@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Platformer.Gameplay.EnablePlayerInput">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\EnablePlayerInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.EnemyDeath">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\EnemyDeath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.HealthIsZero">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\HealthIsZero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.PlayerDeath">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\PlayerDeath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Core.Simulation">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Platformer.Core.Simulation.Event" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Core\Simulation.Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Platformer.Core.Simulation.Event&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Core\Simulation.Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Platformer.Core.Simulation.InstanceRegister&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Core\Simulation.InstanceRegister.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFCACAACAAAAAAAAAAAEQAAAAEAAAAAABAQAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Simulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.PlayerEnemyCollision">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\PlayerEnemyCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.PlayerEnteredDeathZone">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\PlayerEnteredDeathZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.PlayerEnteredVictoryZone">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIABA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\PlayerEnteredVictoryZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.PlayerJumped">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\PlayerJumped.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.PlayerSpawn">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIgAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\PlayerSpawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Gameplay.PlayerTokenCollision">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\PlayerTokenCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThristUpper">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\ThristUpper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Mechanics.VictoryZone">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAACCA=</HashCode>
+      <FileName>Assets\Scripts\Mechanics\VictoryZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Platformer.Mechanics.DeathZone">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Mechanics\DeathZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayAudioClip">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAABAAAAAAAQAAAAAgAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Mechanics\PlayAudioClip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Checkpoint">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Mechanics\Checkpoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

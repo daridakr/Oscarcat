@@ -1,0 +1,1484 @@
+fileFormatVersion: 2
+guid: 1e9c3e2b641639342983bdc93ab8d3a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5662019336159870309
+    second: meet_0
+  - first:
+      213: 3984304034909518463
+    second: meet_1
+  - first:
+      213: -2136077030008560799
+    second: meet_2
+  - first:
+      213: -8627315809727759449
+    second: meet_3
+  - first:
+      213: 5884631347980503253
+    second: meet_4
+  - first:
+      213: -7540105138669723856
+    second: meet_5
+  - first:
+      213: -6574184896213351314
+    second: meet_6
+  - first:
+      213: 2047030130706791290
+    second: meet_7
+  - first:
+      213: -7957230351567941703
+    second: meet_8
+  - first:
+      213: 818797323716368028
+    second: meet_9
+  - first:
+      213: -5640454859744011314
+    second: meet_10
+  - first:
+      213: 3941059955973438845
+    second: meet_11
+  - first:
+      213: -1856881875743705781
+    second: meet_12
+  - first:
+      213: 8225331389225891257
+    second: meet_13
+  - first:
+      213: 3882176560192616330
+    second: meet_14
+  - first:
+      213: 3260903079280165598
+    second: meet_15
+  - first:
+      213: -6351456650464255802
+    second: meet_16
+  - first:
+      213: -3173764465901631235
+    second: meet_17
+  - first:
+      213: 189490761323726188
+    second: meet_18
+  - first:
+      213: -3451245600544780374
+    second: meet_19
+  - first:
+      213: 7718262390023691340
+    second: meet_20
+  - first:
+      213: -8298653094762634199
+    second: meet_21
+  - first:
+      213: 1603345753173410385
+    second: meet_22
+  - first:
+      213: 6328884526309806743
+    second: meet_23
+  - first:
+      213: -6603841051338647623
+    second: meet_24
+  - first:
+      213: 8711213088930163668
+    second: meet_25
+  - first:
+      213: 3939659992656193939
+    second: meet_26
+  - first:
+      213: -4424820083261146590
+    second: meet_27
+  - first:
+      213: -7747199242874684338
+    second: meet_28
+  - first:
+      213: -6977912514146375
+    second: meet_29
+  - first:
+      213: -3610769299764894260
+    second: meet_30
+  - first:
+      213: 1018182510557448741
+    second: meet_31
+  - first:
+      213: 1059797868734634499
+    second: meet_32
+  - first:
+      213: 1657071973397002637
+    second: meet_33
+  - first:
+      213: -2457406609657746869
+    second: meet_34
+  - first:
+      213: 5381097790215340036
+    second: meet_35
+  - first:
+      213: 186444391971621589
+    second: meet_36
+  - first:
+      213: 8199845875059131049
+    second: meet_37
+  - first:
+      213: 1962987755966739017
+    second: meet_38
+  - first:
+      213: 5616543794668282667
+    second: meet_39
+  - first:
+      213: -7026634869566196044
+    second: meet_40
+  - first:
+      213: 8228979393603312269
+    second: meet_41
+  - first:
+      213: -159348139232894602
+    second: meet_42
+  - first:
+      213: -8348865570428653806
+    second: meet_43
+  - first:
+      213: -8084492084824591225
+    second: meet_44
+  - first:
+      213: -3197073681577527880
+    second: meet_45
+  - first:
+      213: -8203928594604874883
+    second: meet_46
+  - first:
+      213: -5652327497057685608
+    second: meet_47
+  - first:
+      213: -7100802894773348399
+    second: meet_48
+  - first:
+      213: 2761425841991863532
+    second: meet_49
+  - first:
+      213: -125345742685965068
+    second: meet_50
+  - first:
+      213: -4661479586346433974
+    second: meet_51
+  - first:
+      213: -3616969765512632825
+    second: meet_52
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: meet_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 3458
+        width: 418
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56db33b6698839e40800000000000000
+      internalID: 5662019336159870309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_1
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 3444
+        width: 371
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7affe5f8671b4730800000000000000
+      internalID: 3984304034909518463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_2
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 3441
+        width: 431
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163e77532412b52e0800000000000000
+      internalID: -2136077030008560799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_3
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 3454
+        width: 504
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abb0140bfd954880800000000000000
+      internalID: -8627315809727759449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_4
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 3468
+        width: 478
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8818a68096aa150800000000000000
+      internalID: 5884631347980503253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_5
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 3464
+        width: 498
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f5e78535a2c5790800000000000000
+      internalID: -7540105138669723856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_6
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 3478
+        width: 420
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64077d1badc3c4a0800000000000000
+      internalID: -6574184896213351314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2976
+        width: 392
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bbc49ee03886c10800000000000000
+      internalID: 2047030130706791290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_8
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2976
+        width: 455
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf06da872d329190800000000000000
+      internalID: -7957230351567941703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_9
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 2979
+        width: 430
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c969727e3d3fc5b00800000000000000
+      internalID: 818797323716368028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_10
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 2966
+        width: 416
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb1551803419b1b0800000000000000
+      internalID: -5640454859744011314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_11
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 2946
+        width: 472
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d305a362571b630800000000000000
+      internalID: 3941059955973438845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_12
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2948
+        width: 469
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b457f6ea5c70b36e0800000000000000
+      internalID: -1856881875743705781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_13
+      rect:
+        serializedVersion: 2
+        x: 3335
+        y: 2948
+        width: 426
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5fdae915f362270800000000000000
+      internalID: 8225331389225891257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2431
+        width: 467
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87f0a9430340e530800000000000000
+      internalID: 3882176560192616330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2429
+        width: 425
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2c877d21e014d20800000000000000
+      internalID: 3260903079280165598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_16
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 2437
+        width: 451
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c029cee3d71bd7a0800000000000000
+      internalID: -6351456650464255802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_17
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 2390
+        width: 355
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df80d29980684f3d0800000000000000
+      internalID: -3173764465901631235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_18
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 2421
+        width: 451
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c654bece7d431a200800000000000000
+      internalID: 189490761323726188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_19
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 2418
+        width: 385
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf06ea6966ba10d0800000000000000
+      internalID: -3451245600544780374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_20
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 2435
+        width: 381
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c9e9820c6cc1b60800000000000000
+      internalID: 7718262390023691340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_21
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 2044
+        width: 508
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9242a7c7af245dc80800000000000000
+      internalID: -8298653094762634199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_22
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 1999
+        width: 502
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1524806b77a304610800000000000000
+      internalID: 1603345753173410385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_23
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1739
+        width: 382
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792992fd1f6b4d750800000000000000
+      internalID: 6328884526309806743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_24
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1743
+        width: 392
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b751dd6d817a54a0800000000000000
+      internalID: -6603841051338647623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1724
+        width: 393
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db6a60862274e870800000000000000
+      internalID: 8711213088930163668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_26
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1681
+        width: 386
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399271ed3eb7ca630800000000000000
+      internalID: 3939659992656193939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_27
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 1703
+        width: 441
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a7436f391e792c0800000000000000
+      internalID: -4424820083261146590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_28
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1685
+        width: 244
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c7744c55b6c7490800000000000000
+      internalID: -7747199242874684338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_29
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 1683
+        width: 458
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf025320a537eff0800000000000000
+      internalID: -6977912514146375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1227
+        width: 382
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5a0a9d378f3edc0800000000000000
+      internalID: -3610769299764894260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_31
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1218
+        width: 442
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aca4a499f412e00800000000000000
+      internalID: 1018182510557448741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_32
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1203
+        width: 439
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ad4abeb8825be00800000000000000
+      internalID: 1059797868734634499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_33
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1224
+        width: 420
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8975952e2a1ff610800000000000000
+      internalID: 1657071973397002637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_34
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 1187
+        width: 418
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a27aa55b985edd0800000000000000
+      internalID: -2457406609657746869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_35
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 1226
+        width: 401
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400cc6f0eef7daa40800000000000000
+      internalID: 5381097790215340036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_36
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 1210
+        width: 397
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da05d9cf22669200800000000000000
+      internalID: 186444391971621589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_37
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 708
+        width: 459
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a20ad3f064bbc170800000000000000
+      internalID: 8199845875059131049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_38
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 805
+        width: 276
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942b6d4b6feed3b10800000000000000
+      internalID: 1962987755966739017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_39
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 698
+        width: 209
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23a0a2d2d8f1fd40800000000000000
+      internalID: 5616543794668282667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_40
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 800
+        width: 180
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6322990d06c7e90800000000000000
+      internalID: -7026634869566196044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_41
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 690
+        width: 406
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a1cb3d825333270800000000000000
+      internalID: 8228979393603312269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_42
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 694
+        width: 416
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671676d26b1e9cdf0800000000000000
+      internalID: -159348139232894602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_43
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 675
+        width: 306
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f6c157ffed22c80800000000000000
+      internalID: -8348865570428653806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_44
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 700
+        width: 322
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784b296484d1ecf80800000000000000
+      internalID: -8084492084824591225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_45
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 727
+        width: 359
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b532d8ec66b1a3d0800000000000000
+      internalID: -3197073681577527880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_46
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 239
+        width: 422
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7328e3d86ac52e80800000000000000
+      internalID: -8203928594604874883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_47
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 212
+        width: 416
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f24b7b616ee81b0800000000000000
+      internalID: -5652327497057685608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_48
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 214
+        width: 398
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d718fc8361e47d90800000000000000
+      internalID: -7100802894773348399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_49
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 241
+        width: 364
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec42813c2e825620800000000000000
+      internalID: 2761425841991863532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_50
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 206
+        width: 412
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4781d06bea24ef0800000000000000
+      internalID: -125345742685965068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_51
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 173
+        width: 373
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42061883091f4fb0800000000000000
+      internalID: -4661479586346433974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meet_52
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 180
+        width: 373
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706aa4b6921fdcdc0800000000000000
+      internalID: -3616969765512632825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      meet_11: 3941059955973438845
+      meet_41: 8228979393603312269
+      meet_30: -3610769299764894260
+      meet_15: 3260903079280165598
+      meet_4: 5884631347980503253
+      meet_34: -2457406609657746869
+      meet_44: -8084492084824591225
+      meet_8: -7957230351567941703
+      meet_36: 186444391971621589
+      meet_39: 5616543794668282667
+      meet_27: -4424820083261146590
+      meet_5: -7540105138669723856
+      meet_29: -6977912514146375
+      meet_3: -8627315809727759449
+      meet_37: 8199845875059131049
+      meet_43: -8348865570428653806
+      meet_40: -7026634869566196044
+      meet_23: 6328884526309806743
+      meet_33: 1657071973397002637
+      meet_7: 2047030130706791290
+      meet_31: 1018182510557448741
+      meet_42: -159348139232894602
+      meet_1: 3984304034909518463
+      meet_9: 818797323716368028
+      meet_47: -5652327497057685608
+      meet_10: -5640454859744011314
+      meet_18: 189490761323726188
+      meet_28: -7747199242874684338
+      meet_17: -3173764465901631235
+      meet_19: -3451245600544780374
+      meet_51: -4661479586346433974
+      meet_21: -8298653094762634199
+      meet_50: -125345742685965068
+      meet_12: -1856881875743705781
+      meet_22: 1603345753173410385
+      meet_52: -3616969765512632825
+      meet_26: 3939659992656193939
+      meet_32: 1059797868734634499
+      meet_2: -2136077030008560799
+      meet_45: -3197073681577527880
+      meet_24: -6603841051338647623
+      meet_14: 3882176560192616330
+      meet_38: 1962987755966739017
+      meet_0: 5662019336159870309
+      meet_25: 8711213088930163668
+      meet_13: 8225331389225891257
+      meet_6: -6574184896213351314
+      meet_46: -8203928594604874883
+      meet_20: 7718262390023691340
+      meet_35: 5381097790215340036
+      meet_49: 2761425841991863532
+      meet_48: -7100802894773348399
+      meet_16: -6351456650464255802
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
