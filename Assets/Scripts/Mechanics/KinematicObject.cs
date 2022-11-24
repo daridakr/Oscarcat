@@ -72,8 +72,7 @@ namespace Platformer.Mechanics
 
         protected virtual void OnEnable() 
         {
-            body = GetComponent<Rigidbody2D>();
-            body.isKinematic = true;
+            
         }
 
         protected virtual void OnDisable()
@@ -83,6 +82,9 @@ namespace Platformer.Mechanics
 
         protected virtual void Start()
         {
+            body = GetComponent<Rigidbody2D>();
+            body.isKinematic = true;
+
             contactFilter.useTriggers = false;
             contactFilter.SetLayerMask(Physics2D.GetLayerCollisionMask(gameObject.layer));
             contactFilter.useLayerMask = true;

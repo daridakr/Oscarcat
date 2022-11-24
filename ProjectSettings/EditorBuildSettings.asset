@@ -6,24 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TrainingLevel.unity
-    guid: 2f06b1057f41df34cbc096bccbef51d0
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 384493f007ae8704aa1d9a30c47f94b5
-  - enabled: 1
-    path: Assets/Scenes/LevelMap.unity
-    guid: 595913cdc558a494e8ba7ad21c89282a
-  - enabled: 1
-    path: Assets/Scenes/CatRoom.unity
-    guid: 2cf858470ff909b4498b41a7ea63fb11
-  - enabled: 1
-    path: Assets/Scenes/Store.unity
-    guid: 29c27c7c613a64d4e851d91738cd4c27
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
     path: Assets/Scenes/FirstLevel.unity
     guid: c277a293bac80d4499213ba84a12a7da
   - enabled: 1
@@ -44,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheEndFirstChapter.unity
     guid: 5ae723c0451c77f43b8f9ccca6d1130e
+  - enabled: 1
+    path: Assets/Scenes/TrainingLevel.unity
+    guid: 2f06b1057f41df34cbc096bccbef51d0
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 384493f007ae8704aa1d9a30c47f94b5
+  - enabled: 1
+    path: Assets/Scenes/LevelMap.unity
+    guid: 595913cdc558a494e8ba7ad21c89282a
   m_configObjects: {}

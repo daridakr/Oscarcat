@@ -86,15 +86,17 @@ namespace Platformer.Mechanics
         void Awake()
         {
             health = GetComponent<Health>();
-            HealthBar.Initialize(healthValue, healthValue);
-            HungerBar.Initialize(healthValue, healthValue);
-            ThristBar.Initialize(healthValue, healthValue);
+
+            if (HealthBar != null) HealthBar.Initialize(healthValue, healthValue);
+            if (HungerBar != null) HungerBar.Initialize(healthValue, healthValue);
+            if (ThristBar != null) ThristBar.Initialize(healthValue, healthValue);
+
             audioSource = GetComponent<AudioSource>();
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+
             PlayerSpawn.playerPosition = model.spawnPoint.transform.position;
-            
         }
 
         protected override void Update()

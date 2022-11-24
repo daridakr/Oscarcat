@@ -23,6 +23,7 @@ public class LevelManager : MonoBehaviour
 
     public void isEndChapter()
     {
+        //Debug.Log("LevelComplete" + levelComplete);
         if (levelComplete < SceneIndex) PlayerPrefs.SetInt("LevelComplete", SceneIndex);
         LoadMainMenu();
     }

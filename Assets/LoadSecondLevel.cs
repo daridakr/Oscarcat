@@ -7,7 +7,7 @@ public class LoadSecondLevel : StateMachineBehaviour
 {
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        LevelManager.Instance.SceneIndex = 5;
+        //LevelManager.Instance.SceneIndex = 5;
         LevelManager.Instance.isEndChapter();
         //PointsManager.Instance.SaveCurrentPoints();
         //SceneManager.LoadScene("LevelMap");

@@ -17,22 +17,26 @@ public class LevelsController : MonoBehaviour
     private void Start()
     {
         leveleComplete = PlayerPrefs.GetInt("LevelComplete");
+
+        //Debug.Log("LeveleComplete" + leveleComplete);
+
         switch(leveleComplete)
         {
-            case 5:
+            case 1:
                 levelButton.IsCurrent = false;
                 levelButton.IsDone = true;
                 levelButton2.IsCurrent = true;
+
                 levelButton5.IsDone = false;
                 break;
-            case 7:
+            case 2:
                 levelButton.IsCurrent = false;
                 levelButton.IsDone = true;
                 levelButton2.IsCurrent = false;
                 levelButton2.IsDone = true;
                 levelButton3.IsCurrent = true;
                 break;
-            case 8:
+            case 3:
                 levelButton.IsCurrent = false;
                 levelButton.IsDone = true;
                 levelButton2.IsDone = true;
@@ -40,7 +44,7 @@ public class LevelsController : MonoBehaviour
                 levelButton3.IsDone = true;
                 levelButton4.IsCurrent = true;
                 break;
-            case 9:
+            case 4:
                 levelButton.IsCurrent = false;
                 levelButton.IsDone = true;
                 levelButton3.IsCurrent = false;
@@ -51,7 +55,7 @@ public class LevelsController : MonoBehaviour
                 levelButton4.IsDone = true;
                 levelButton5.IsCurrent = true;
                 break;
-            case 10:
+            case 5:
                 levelButton.IsCurrent = false;
                 levelButton.IsDone = true;
                 levelButton3.IsCurrent = false;
@@ -65,14 +69,14 @@ public class LevelsController : MonoBehaviour
                 break;
         }
 
-        //if (levelButton5.IsDone)
-        //{
-        //    if (PlayerPrefs.GetInt("FirstChapter") == 0)
-        //    {
-        //        SceneManager.LoadScene("TheEndFirstChapter");
-        //        PlayerPrefs.SetInt("FirstChapter", 1);
-        //    }
-        //}
+        if (levelButton5.IsDone)
+        {
+            if (PlayerPrefs.GetInt("FirstChapter") == 0)
+            {
+                SceneManager.LoadScene("TheEndFirstChapter");
+                PlayerPrefs.SetInt("FirstChapter", 1);
+            }
+        }
     }
 
     private void Update()
