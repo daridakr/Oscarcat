@@ -28,9 +28,11 @@
 
 <div align="center">
 <b>Arcade 2D platformer</b> about <b>amusing adventures</b> of my cat Oscar. In the development process used a large amount of material on programming and algorithmic. The skills of mastering the methods of <b>robust programming</b> techniques and <b>development efficiency</b> in Visual Studio using C# and Unity were honed.
+</div>
 
 <br>
 
+<div align="center">
 <img src="readme_assets/oscarcat.jpg" />
 </div>
 
@@ -53,7 +55,7 @@
 
 ## About the game
 
-With short, but **intense** and **exciting** gameplay, Oscarcat amuses with its mood, unique to each level, and entertains with the adventure of the protagonist – the cat Oscar, who faces `various challenges` and `rivals` on the way to the highest goal since his birth. Oscarcat gives the player interesting and possibly new information, expanding his knowledge of cats. During the game, the player will get to know these animals from the moment they are born. The gameplay consists of `passing the levels` and stages of the game, which are compared with the **periods of life** of a cat.
+With short, but **intense** and **exciting** gameplay, Oscarcat amuses with its mood, unique to each level, and entertains with the adventure of the protagonist – the cat Oscar, who faces `various challenges and rivals` on the way to the highest goal since his birth. Oscarcat gives the player interesting and possibly new information, expanding his knowledge of cats. During the game, the player will get to know these animals from the moment they are born. The gameplay consists of `passing the levels` and stages of the game, which are compared with the **periods of life** of a cat.
 
 <br>
 
@@ -75,21 +77,19 @@ With short, but **intense** and **exciting** gameplay, Oscarcat amuses with its 
 <br>
 
 ## Event System 
-В папке `Core` содержатся скрипты, образующие «ядро» игры, которые направлены на реализацию системы событий в игре:
-  -   `HeapQueue` Класс, описывающий упорядоченную коллекцию очередей. Это необходимо для создания очереди событий;
-  -   `Simulation` Основной класс для работы с событиями;
-  -   `Simulation.Event` Класс, описывающий событие;
-  -   `Simulation.InstanceRegister` Данный класс предоставляет контейнер для создания синглтонов для любого другого класса в пределах области действия Simulation. Он используется для хранения моделей симуляции и классов конфигурации.
+The `Core` folder contains the scripts that form the **"core"** of the game, which are aimed at implementing the **system of events** in the game:
+  -   `HeapQueue` Class that describes an **ordered queue collection**. This is required to create an event queue;
+  -   `Simulation` The **main class** for working with events;
+  -   `Simulation.Event` The class describing **the event**;
+  -   `Simulation.InstanceRegister` This class provides a **container** for creating **singletons** for any other class within the **Simulation** scope. It is used to store simulation models and configuration classes.
 
-Скрипт Simulation реализует паттерн Дискретно-событийное моделирование. Он предоставляет методы для создания нового события определенного типа, очистки очереди событий, планирования событий, перенесение существующих событий, а также для получения количества оставшихся событий. Все события объединяются в пул с емкостью 4 экземпляра по умолчанию.
+The **Simulation** script implements the **Discrete-event simulation pattern**. It provides methods for creating a new event of a specific type, clearing the event queue, scheduling events and migrating existing events. All events are pooled with the default capacity of **4 instances**.
 
-Скрипт HeapQueue предоставляет всегда упорядоченную коллекцию очередей. Описанный класс предоставляет методы для добавления и удаления элементов, а такие методы как SiftDown и SiftUp позволяют отсортировать элементы очереди в нужном направлении.
+The **HeapQueue** script provides an **always-ordered** collection of queues. The class provides methods for adding and removing elements, and methods such as `SiftDown()` and `SiftUp()` allow you to sort queue elements in the desired direction.
 
-Таким образом, благодаря данному скрипту в игре «Oscarcat» можно легко запускать различные события, как это было сделано с поражением главного героя, его возрождением, смертью противников, вхождением персонажа в «мертвую зону», столкновением персонажа с противниками и т.п. Это делается с помощью метода планирования событий Schedule.
+Thus, due to this scripts in the game "Oscarcat" you can easily initiate various events, like the defeat of the main character, his revival, the death of enemies, entering the character in the «dead zone», the collision of the character with enemies, etc. This is done using the **Schedule method** of scheduling events. So, for example, the event of a character's death is triggered - `Schedule<PlayerDeath>()`.
 
-Так запускается событие смерти персонажа – Schedule<PlayerDeath>().
-
-Имеется также скрипт Simulation.Event, в котором есть метод Precondition, используемый для проверки необходимости выполнения события, поскольку условия в симуляции могли измениться с тех пор, как событие было первоначально запланировано.
+There is also a **Simulation.Event** script that contains the `Precondition()` method used to check if the event needs to be executed, as the conditions in the simulation may have changed since the event was originally scheduled.
 
 <br>
 
