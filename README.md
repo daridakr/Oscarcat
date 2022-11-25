@@ -48,6 +48,7 @@
   - [Demonstration](#demonstration)
   - [Download](#download)
 
+
 <br>
 
 ## About the game
@@ -298,7 +299,9 @@ With short, but **intense** and **exciting** gameplay, Oscarcat amuses with its 
 
 ## Demonstration
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+<div style='position:relative; padding-bottom:calc(54.27% + 44px)'><iframe src='https://gfycat.com/ifr/BestActualAmericancrow' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+![OscarDemo](https://gfycat.com/bestactualamericancrow)
 
 <br>
 
