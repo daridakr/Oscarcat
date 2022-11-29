@@ -60,16 +60,17 @@ With short, but **intense** and **exciting** gameplay, Oscarcat amuses with its 
 <br>
 
 ## List of mechanics
-  - **Character movement** – running and jumping
+  - **Character physics movement** – move, bounce and jump
   - Сharacter control via **mobile joystick**
+  - Character's loss of life
+  - Hunger, Thirst and Health **Scorecard** – Waste and Replenishment
+  - Enemy behavior - **move and attack**
+  - **Patrol path** of enemies
   - **Character Interaction System** with Enemies and NPC
-  - Enemy behavior
-  - A character's loss of life
-  - **Level system** – transition, opening, resetting
-  - **Gathering** on Levels
   - Using **Abilities** and **Bonuses**
-  - Hunger, Thirst and Health Scorecard – Waste and Replenishment
-  - Saving game progress
+  - **Level system** – transition, opening, resetting
+  - **Token gathering** on levels
+  - **Saving** game progress
   - Game Settings
   - Help system
   - Learning at play
@@ -83,34 +84,33 @@ The `Core` folder contains the scripts that form the **"core"** of the game, whi
   -   `Simulation.Event` The class describing **the event**;
   -   `Simulation.InstanceRegister` This class provides a **container** for creating **singletons** for any other class within the **Simulation** scope. It is used to store simulation models and configuration classes.
 
-The **Simulation** script implements the **Discrete-event simulation pattern**. It provides methods for creating a new event of a specific type, clearing the event queue, scheduling events and migrating existing events. All events are pooled with the default capacity of **4 instances**.
+The [Simulation](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Core/Simulation.cs) script implements the **Discrete-event simulation pattern**. It provides methods for creating a new event of a specific type, clearing the event queue, scheduling events and migrating existing events. All events are pooled with the default capacity of **4 instances**.
 
-The **HeapQueue** script provides an **always-ordered** collection of queues. The class provides methods for adding and removing elements, and methods such as `SiftDown()` and `SiftUp()` allow you to sort queue elements in the desired direction.
+The [HeapQueue](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Core/HeapQueue.cs) script provides an **always-ordered** collection of queues. The class provides methods for adding and removing elements, and methods such as `SiftDown()` and `SiftUp()` allow you to sort queue elements in the desired direction.
 
 Thus, due to this scripts in the game "Oscarcat" you can easily initiate various events, like the defeat of the main character, his revival, the death of enemies, entering the character in the «dead zone», the collision of the character with enemies, etc. This is done using the **Schedule method** of scheduling events. So, for example, the event of a character's death is triggered - `Schedule<PlayerDeath>()`.
 
-There is also a **Simulation.Event** script that contains the `Precondition()` method used to check if the event needs to be executed, as the conditions in the simulation may have changed since the event was originally scheduled.
+There is also a [Simulation.Event](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Core/Simulation.Event.cs) script that contains the `Precondition()` method used to check if the event needs to be executed, as the conditions in the simulation may have changed since the event was originally scheduled.
 
 <br>
 
 ## Events description
 
-В папке `Gameplay` содержаться все скрипты, описывающие события, связанные с игровым процессом:
-  -   `EnablePlayerInput` Событие для контроля за возможностью управления персонажем игроком;
-  -   `EnemyDeath` Событие, срабатывающее при смерти соперника;
-  -   `PlayerDeath` Событие, срабатывающее при смерти персонажа;
-  -   `PlayerEnemyCollision` Событие, срабатывающее при столкновении игрока с противником;
-  -   `PlayerEnteredDeathZone` Событие, срабатывающее, когда игрок входит в триггер с компонентом DeathZone;
-  -   `PlayerEnteredVictoryZone` Событие, срабатывающее, когда игрок входит в триггер с компонентом VictoryZone;
-  -   `PlayerJumped` Событие, срабатывающее, когда игрок совершает прыжок;
-  -   `PlayerLanded` Событие, срабатывающее, когда персонаж игрока приземляется после нахождения в воздухе;
-  -   `PlayerSpawn` Событие, срабатывающее, когда игрок возрождается после смерти;
-  -   `PlayerStopJump` Событие, срабатывающее, когда игрок прекращает прыгать и приземляется на землю;
-  -   `PlayerTokenCollision` Событие, срабатывающее, когда игрок сталкивается с токеном;
-  -   `ThristUpper` Скрипт, пополняющий жажду персонажа, когда игрок входит в соответствующий триггер.
+The `Gameplay` folder contains all scripts describing the **events** related to gameplay:
+  -   `EnablePlayerInput` The event responsible for the ability to control the character;
+  -   `EnemyDeath` Event triggered by the death of an enemy;
+  -   `PlayerDeath` Event triggered by the death of character;
+  -   `PlayerEnemyCollision` Event triggered when a player collides with an enemy;
+  -   `PlayerEnteredDeathZone` Event triggered when a player enters a trigger with a **DeathZone** component;
+  -   `PlayerEnteredVictoryZone` Event triggered when a player enters the trigger with the **VictoryZone** component;
+  -   `PlayerJumped` Event triggered when a player makes a jump;
+  -   `PlayerLanded` Event triggered when a player character lands after being in the air;
+  -   `PlayerSpawn` Event triggered when a player is revived after death;
+  -   `PlayerStopJump` Event triggered when a player stops jumping and lands on the ground;
+  -   `PlayerTokenCollision` Event triggered when a player collides with a token;
+  -   `ThristUpper` Script that adds to the character’s thirst when the player enters the appropriate trigger.
 
-С помощью скрипта [EnablePlayerInput](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Gameplay/EnablePlayerInput.cs) можно контролировать возможность управления персонажем следующим образом:
-
+Using the [EnablePlayerInput](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Gameplay/EnablePlayerInput.cs) script, you can manage your **character control** as follows:
 
 ```
     public class EnablePlayerInput : Simulation.Event<EnablePlayerInput>
@@ -125,9 +125,9 @@ There is also a **Simulation.Event** script that contains the `Precondition()` m
     }
 ```
 
-Здесь реализуется абстрактный метод родителя Simulation.Event – Execute(). В нем включается возможность управления персонажем.
+It implements the abstract parent method Simulation.Event - `Execute()`. It includes the ability to control the character.
 
-Для обработки смерти соперника используется событие [EnemyDeath](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Gameplay/EnemyDeath.cs):
+The [EnemyDeath](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Gameplay/EnemyDeath.cs) event is used to handle enemy death:
 
 ```
   public class EnemyDeath : Simulation.Event<EnemyDeath>
@@ -138,15 +138,15 @@ There is also a **Simulation.Event** script that contains the `Precondition()` m
         {
             enemy._collider.enabled = false;
             enemy.control.enabled = false;
+
             if (enemy._audio && enemy.ouch)
                 enemy._audio.PlayOneShot(enemy.ouch);
         }
     }
 ```
+The enemy's collider and animation controller are disabled, making an interesting effect of the enemy falling down after death. The sound of enemy death is also played here.
 
-У врага отключается коллайдер и контроллер анимации, что создает интересный эффект падения соперника вниз после смерти. Здесь также проигрывается звук смерти противника.
-
-Для обработки смерти персонажа используется событие [PlayerDeath](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Gameplay/PlayerDeath.cs):
+The [PlayerDeath](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Gameplay/PlayerDeath.cs) event is used to handle character death:
 
 ```
   public class PlayerDeath : Simulation.Event<PlayerDeath>
@@ -200,29 +200,29 @@ There is also a **Simulation.Event** script that contains the `Precondition()` m
     }
 ```
 
-Количество жизней – это количество попыток игрока пройти уровень. Когда здоровье персонажа достигает нуля и менее, игрок должен потерять одну жизнь. Если он теряет все – он проигрывает, его прогресс в данном уровне сбрасывается, и игрок начинает сначала.
+The **count of lives** is the count of player attempts to complete the level. When a character’s **health** reaches zero or less, the player must lose one life. If he loses everything - he loses, his progress in this level is reset and the player starts over.
 
-Чтобы сбросить уровень при проигрыше, в момент потери жизни необходимо проверить и удостоверится последнюю ли жизнь теряет игрок. Если да, то он перенаправляется в сцену «LevelMap», теряя все свои очки и прогресс прохождения текущего уровня. При последующем заходе в этот уровень, он начнёт сначала.
+To reset the level in a losing case, at the moment of loss of life, you need to check and make sure if it's the last life the player loses. If so, he is redirected to the `LevelMap` scene, losing all his points and progress through the current level. The next time he enters this level, it will start over.
 
-Таким образом в игре была реализована система событий.
+Thus the **event system** was implemented in the game.
 
 <br>
 
 ## Mechanics description
-В папке Mechanics описываются механики игры с помощью следующих скриптов:
-  -   `KinematicObject` Базовый класс для наследования игрока. Реализует игровую физику для некоторого игрового объекта;
-  -   `PlayerController` Основной класс, используемый для реализации управления игроком;
-  -   `EnemyController` Класс для описания врагов;
-  -   `TokenInstance` Этот класс содержит данные, необходимые для реализации механики сбора корма;
-  -   `TokenController` Этот класс анимирует все экземпляры токенов в сцене;
-  -   `DeathZone` Класс, отслеживающий триггер на вхождение игрока в «мёртвую зону»;
-  -   `VictoryZone` Класс, отслеживающий триггер на вхождение игрока в зону окончания уровня;
-  -   `PatrolPath` Класс, предназначенный для создания пути патрулирования врагов – двух точек, между которыми они будут перемещаться;
-  -   `PatrolPath.Mover` Осуществляет колебания врагов между начальной и конечной точками пути с определенной скоростью.
+The `Mechanics` folder describes the mechanics of the game using the following scripts:
+  -   `KinematicObject` Base class for a player’s inheritance. Implements game **physics** for some game object;
+  -   `PlayerController` Primary class used to implement **player control**;
+  -   `EnemyController` The class for describing **enemies**;
+  -   `TokenInstance` This class contains the values needed to implement the **feed collecting**;
+  -   `TokenController` This class **animates** all token instances in the scene;
+  -   `DeathZone` The class that tracks the trigger of the player’s entry into the **dead zone**;
+  -   `VictoryZone` The class that tracks the trigger of the player’s entry into the **end zone**;
+  -   `PatrolPath` The class designed to create a patrol path of enemies – two points between which they will move;
+  -   `PatrolPath.Mover` Allows enemies to oscillate between start and end points of the path at a certain speed.
 
-Базовый класс [KinematicObject](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Mechanics/KinematicObject.cs) имеет все необходимые поля и методы для реализации игровой физики игрока. В полях данного класса хранятся точные необходимые значения для всех вычислений физики при движении, отскакивании, перемещении и прыжках игрока.
+The base class [KinematicObject](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Mechanics/KinematicObject.cs) has all the necessary fields and methods to implement player physics. The fields in this class contain the exact values required for all physics calculations when a player **moves**, **bounces** and **jumps**.
 
-Для реализации отскакивания персонажа от врагов используется метод Bounce:
+The `Bounce()` method is used to make your character bounce off enemies:
 
 ```
   public void Bounce(float value) 
@@ -230,8 +230,7 @@ There is also a **Simulation.Event** script that contains the `Precondition()` m
     velocity.y = value;
   }
 ```
-
-Он определяет вертикальную скорость объекта, за счёт чего персонаж подскакивает вверх. У данного метода есть перегрузка для определения скорости объекта в определённом направлении:
+It determines the vertical speed of the object, due to which the character bounce up. This method has an overload to determine the speed of an object in a certain direction:
 
 ```
   public void Bounce(Vector2 dir)
@@ -241,7 +240,7 @@ There is also a **Simulation.Event** script that contains the `Precondition()` m
   }
 ```
 
-метод PerformMovement описывает реализацию движения персонажа:
+The `PerformMovement()` method describes the implementation of a character's movement:
 
 ```
         void PerformMovement(Vector2 move, bool yMovement)
@@ -291,17 +290,15 @@ There is also a **Simulation.Event** script that contains the `Precondition()` m
         }
 ```
 
-Необходимо проверить столкнулся ли с чем-нибудь персонаж в текущем направлении движения и сохранить количество столкновений для последующей обработки в цикле. Если текущая поверхность достаточно плоская, чтобы на нее можно было приземлиться персонажу, то персонаж успешно приземляется на неё. В случае, если персонаж находится в воздухе и сталкивается с чем-либо необходимо отменить вертикальное движение вверх и сбросить горизонтальную скорость.
+It's necessary to check whether the character has collided with something in the current direction of movement and save the number of collisions for further processing in the loop. If the current surface is flat enough to allow the character to land on it, the character successfully lands on it. In case the character is in the air and collides with something, it's necessary to stop the vertical movement upwards and reset the horizontal speed.
 
-[PlayerController](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Mechanics/PlayerController.cs) наследуется от класса KinematicObject. Это основной класс, используемый для реализации управления игроком. Он реализует паттерн Singleton для возможности обращения к единой сущности и содержит в себе все необходимые поля для определения всех параметров персонажа. Также описаны все необходимые свойства.
+[PlayerController](https://github.com/daridakr/Oscarcat/blob/main/Assets/Scripts/Mechanics/PlayerController.cs) is inherited from the **KinematicObject** class. This is the primary class used to implement player control. It implements the **Singleton pattern** to be able to refer to a single entity and contains all the necessary fields to define all character parameters. 
 
 <br>
 
 ## Demonstration
 
-<div style='position:relative; padding-bottom:calc(54.27% + 44px)'><iframe src='https://gfycat.com/ifr/BestActualAmericancrow' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
-
-![OscarDemo](https://gfycat.com/bestactualamericancrow)
+![OscarDemo](readme_assets/animation.gif)
 
 <br>
 
